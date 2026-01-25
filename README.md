@@ -16,19 +16,19 @@ Files used:
 - Power BI
 - CSV
 
-# Data Preparation
+# Data Cleaning
 - 
 - 
 - 
 - 
 
-# Analysis Performed
+# SQL Analysis Performed
 - Monthly sales trends
 - Revenue by region
 - Sales by product category
 - Top customers by total spend
 
-# Key Insights
+# Key Insights and Results
 - 
 - 
 - 
