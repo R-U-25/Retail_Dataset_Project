@@ -1,4 +1,4 @@
-## E-Commerce-Retail-Datasets-Project
+## Retail Store Dataset Project.
 
 ## Dataset source:
 Retail Store Sales dataset by Ahmed Mohamed.
