@@ -14,15 +14,44 @@ and RDB design.
 
 **The underlying dataset is not redistributed in this repository.**
 
+## Dataset Structure
+
+The analysis will be based on 3 tables as shown below.
+
+# 1. Customers
+- 'customer_id' (Primary Key)
+
+Contains unique customer identifiers.
+
+# 2. Products
+- 'product_id' (Primary Key)
+- 'item'
+- 'category'
+- 'price_per_unit'
+
+Contains product reference data and list pricing.
+
+# 3. Transactions
+- 'transaction_id' (Primary Key)
+- 'transaction_date'
+- 'customer_id' (Foreign Key → Customers)
+- 'product_id' (Foreign Key → Products)
+- 'quantity'
+- 'price_per_unit'
+- 'total_spent'
+- 'discount_applied'
+- 'payment_method'
+- 'location'
+
 # Sales Data Analysis using SQL and Power BI
 
 # Project Overview
 
 
 # Tools Used
+- CSV
 - SQL (SQL Server)
 - Power BI
-- CSV
 
 # Data Cleaning
 - 
