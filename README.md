@@ -1,9 +1,9 @@
 ## E-Commerce-Retail-Datasets-Project
 
 ## Dataset source:
-Retail Store Sales dataset by shedai (Kaggle)  
-License: CC BY-SA 4.0 
-Available at (https://www.kaggle.com/datasets/ahmedmohamed2003/retail-store-sales-dirty-for-data-cleaning)
+Retail Store Sales dataset by Ahmed Mohamed.
+License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+Available at: (https://www.kaggle.com/datasets/ahmedmohamed2003/retail-store-sales-dirty-for-data-cleaning)
 **Licensed for Non-Commercial use only.**
 
 ## Data Modelling
