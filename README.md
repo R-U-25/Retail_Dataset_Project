@@ -43,32 +43,36 @@ Contains product reference data and list pricing.
 - 'payment_method'
 - 'location'
 
-# Sales Data Analysis using SQL and Power BI
+## Initial Data Inspection
 
-# Project Overview
+- 
+
+## Sales Data Analysis using SQL and Power BI
+
+## Project Overview
 
 
-# Tools Used
+## Tools Used
 - CSV
 - SQL (SQL Server)
 - Power BI
 
-# Data Cleaning
+## Data Cleaning
 - 
 - 
 - 
 - 
 
-# SQL Analysis Performed
+## SQL Analysis Performed
 - Monthly sales trends.
 - Revenue by region.
 - Sales by product category.
 - Top customers by total spend.
 
-# Key Insights and Results
+## Key Insights and Results
 - 
 - 
 - 
 
-# Dashboard
+## Dashboard
 A Power BI dashboard was created to visualise the findings.
