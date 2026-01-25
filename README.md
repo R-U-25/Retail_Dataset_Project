@@ -1,7 +1,7 @@
 ## E-Commerce-Retail-Datasets-Project
 
 ## Dataset source:
-Retail Data Set by shedai.
+Retail Data Set by .
 Available on Kaggle.
 **Licensed for Non-Commercial use only.**
 
