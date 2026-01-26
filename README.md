@@ -45,7 +45,21 @@ Contains product reference data and list pricing.
 
 ## Initial Data Inspection
 
-- 
+Before loading the data into SQL Server, the CSV files were inspected to:
+
+- Review column names and the data types.
+- Confirm the presence of primary keys in each CSV file.
+- Verify that shared keys (Foreign keys) exist across related files.
+- Ensure the files could be joined without any structural issues
+
+No cleaning or transformations were applied at this stage.
+
+## Data Ingestion
+
+The source CSV files were loaded into SQL Server as staging tables.
+The staging tables were stored exactly as received, with no transformations applied.
+
+This staging layer will be used to perform validation and to support reproducible data processing.
 
 ## Sales Data Analysis using SQL and Power BI
 
