@@ -69,6 +69,9 @@ Once the data was ingested into SQL Server staging tables, a series of data vali
 
 The following checks were performed:
 - Row count validation to confirm all records were successfully loaded and present.
+
+
+
 - Primary key uniqueness checks for customers, products, and transactions.
 
 
