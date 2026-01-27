@@ -93,6 +93,8 @@ No changes were made to the data at this stage. The validation results informed 
 - The 'transactions_clean' view converts raw text fields into appropriate date and numeric formats
 and standardises discount indicators(either 0 or 1).
 
+[**SQL Views(Standardising Dates and Discounts**]()
+
 **Example output from the cleaned transactions view:**
 
 
