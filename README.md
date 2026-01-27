@@ -86,6 +86,11 @@ revenue calculations and cleaning logic were handled later on.
 
 No changes were made to the data at this stage. The validation results informed how null values, data types, and business rules were handled during the transformation phase.
 
+## Data Transformation
+
+- Following data validation, the data was then transformed into clean, analysis ready tables.
+- This step in the project included standardising the data types, handling all missing values, and preparing the data for analytical querying and Reporting in Power BI.
+
 ## Sales Data Analysis using SQL and Power BI
 
 ## Project Overview
