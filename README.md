@@ -56,10 +56,28 @@ No cleaning or transformations were applied at this stage.
 
 ## Data Ingestion
 
-The source CSV files were loaded into SQL Server as staging tables.
+The source CSV files were loaded into SQL Server as staging tables using 'BULK INSERT'.
 The staging tables were stored exactly as received, with no transformations applied.
+All columns were stored as VARCHAR to preserve the raw structure of the data.
+Row counts in the staging table were validated to ensure successful ingestion.
 
 This staging layer will be used to perform validation and to support reproducible data processing.
+
+## Data Validation
+
+Once the data was ingested into SQL Server staging tables, a series of data validation checks were carried out prior to any transformation.
+
+The following checks were performed:
+- Row count validation to confirm all records were successfully loaded and present.
+- Primary key uniqueness checks for customers, products, and transactions.
+
+
+
+- Referential integrity checks to ensure all transactions reference valid customers and products in SQL Server.
+- Analysis of missing values in transactional fields such as quantity, pricing, discount indicators, etc.
+- Null checks were focused on key transactional fields that directly affect revenue calculations and time based analysis.
+
+No changes were made to the data at this stage. The validation results informed how null values, data types, and business rules were handled during the transformation phase.
 
 ## Sales Data Analysis using SQL and Power BI
 
