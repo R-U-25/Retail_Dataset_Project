@@ -82,7 +82,7 @@ The following checks were performed:
 - All columns contained valid dates and total revenue sales however, missing values were identified in 'Quantity' and 'Price Per Unit' fields which informed how
 revenue calculations and cleaning logic were handled later on.
 
-[**Null Checks**]()
+[**Null Checks**](images/Null%20Checks.png)
 
 No changes were made to the data at this stage. The validation results informed how null values, data types, and business rules were handled during the transformation phase.
 
