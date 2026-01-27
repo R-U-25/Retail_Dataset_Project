@@ -79,6 +79,10 @@ The following checks were performed:
 
 - Analysis of missing values in transactional fields such as quantity, pricing, discount indicators, etc.
 - Null checks were focused on key transactional fields that directly affect revenue calculations and time based analysis.
+- All columns contained valid dates and total revenue sales however, missing values were identified in 'Quantity' and 'Price Per Unit' fields which informed how
+revenue calculations and cleaning logic were handled later on.
+
+[**Null Checks**]()
 
 No changes were made to the data at this stage. The validation results informed how null values, data types, and business rules were handled during the transformation phase.
 
