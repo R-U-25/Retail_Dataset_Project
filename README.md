@@ -87,10 +87,15 @@ The following checks were performed:
 
 No changes were made to the data at this stage. The validation results informed how null values, data types, and business rules were handled during the transformation phase.
 
-## Data Transformation
+## Data Transformation (SQL Views)
 
-- Following data validation, the data was then transformed into clean, analysis ready tables.
-- This step in the project included standardising the data types, handling all missing values, and preparing the data for analytical querying and Reporting in Power BI.
+- Clean SQL views were created to standardise data types and prepare the data for analysis.
+- The 'transactions_clean' view converts raw text fields into appropriate date and numeric formats
+and standardises discount indicators(either 0 or 1).
+
+**Example output from the cleaned transactions view:**
+
+
 
 ## Sales Data Analysis using SQL and Power BI
 
