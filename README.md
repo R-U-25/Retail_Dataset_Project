@@ -95,10 +95,6 @@ and standardises discount indicators(either 0 or 1).
 
 [**SQL Views(Standardising Dates and Discounts**](images/SQL%20Views(Standardising%20date%20and%20discount%20fields).png)
 
-**Example output from the cleaned transactions view:**
-
-
-
 ## Sales Data Analysis using SQL and Power BI
 
 ## Project Overview
