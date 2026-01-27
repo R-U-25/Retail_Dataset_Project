@@ -77,10 +77,11 @@ The following checks were performed:
 
 [**REFERENTIAL INTEGRITY**](images/Referential%20Integrity%20Checks.png)
 
-- Analysis of missing values in transactional fields such as quantity, pricing, discount indicators, etc.
-- Null checks were focused on key transactional fields that directly affect revenue calculations and time based analysis.
-- All columns contained valid dates and total revenue sales however, missing values were identified in 'Quantity' and 'Price Per Unit' fields which informed how
-revenue calculations and cleaning logic were handled later on.
+- Analysis of missing values was performed on key transactional fields such as quantity, unit price, total spent, and discount indicators.
+- Validation focused on columns critical to revenue calculations and temporal analysis.
+- All transactions contained valid dates, while missing values were observed in quantity, unit price, total spent, and discount fields. 
+  These results guided decisions on how incomplete transactions were treated and how revenue metrics were calculated during data transformation.
+
 
 [**Null Checks**](images/Null%20Checks.png)
 
