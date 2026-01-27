@@ -75,7 +75,7 @@ The following checks were performed:
 - Primary key uniqueness checks for customers, products, and transactions.
 - Referential integrity checks to ensure all transactions reference valid customers and products in SQL Server.
 
-[**REFERENTIAL INTEGRITY**](Referential%20Integrity%20Checks.png)
+[**REFERENTIAL INTEGRITY**](images/Referential%20Integrity%20Checks.png)
 
 - Analysis of missing values in transactional fields such as quantity, pricing, discount indicators, etc.
 - Null checks were focused on key transactional fields that directly affect revenue calculations and time based analysis.
