@@ -43,7 +43,7 @@ Contains product reference data and list pricing.
 - 'payment_method'
 - 'location'
 
-## Initial Data Inspection
+## Initial Data Inspection (CSV)
 
 Before loading the data into SQL Server, the CSV files were inspected to:
 
@@ -54,7 +54,7 @@ Before loading the data into SQL Server, the CSV files were inspected to:
 
 No cleaning or transformations were applied at this stage.
 
-## Data Ingestion
+## Data Ingestion (SQL)
 
 The source CSV files were loaded into SQL Server as staging tables using 'BULK INSERT'.
 The staging tables were stored exactly as received, with no transformations applied.
