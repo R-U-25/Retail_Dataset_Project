@@ -92,8 +92,16 @@ No changes were made to the data at this stage. The validation results informed 
 - Clean SQL views were created to standardise data types and prepare the data for analysis.
 - The 'transactions_clean' view converts raw text fields into appropriate date and numeric formats
 and standardises discount indicators(either 0 or 1).
-
+- The same step was taken for the other CSV files (changing the format for Customers and Products).
 [**SQL Views(Standardising Dates and Discounts**](images/SQL%20Views(Standardising%20date%20and%20discount%20fields).png)
+
+## Analytical Data Model
+
+- A final analytical view (VIEW 'Sales') was created by joining cleaned transaction data with cleaned product and cleaned customer reference data.
+- LEFT JOINs were used to preserve all transaction records while enriching them with product and customer attributes.
+- This view will serve as the primary dataset for analysis and reporting.
+
+
 
 ## Sales Data Analysis using SQL and Power BI
 
