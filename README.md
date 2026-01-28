@@ -101,6 +101,8 @@ and standardises discount indicators(either 0 or 1).
 - LEFT JOINs were used to preserve all transaction records while enriching them with product and customer attributes.
 - This view will serve as the primary dataset for analysis and reporting.
 
+**Below is an example of the first 10 rows from the final complete Sales VIEW**
+()
 
 
 ## Sales Data Analysis using SQL and Power BI
