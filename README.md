@@ -102,8 +102,8 @@ and standardises discount indicators(either 0 or 1).
 - This view will serve as the primary dataset for analysis and reporting.
 
 **Below is an example of the first 10 rows from the final complete Sales VIEW**
-()
 
+(images/First%2010%20Records%20in%20Sales%20(VIEW).png)
 
 ## Sales Data Analysis using SQL and Power BI
 
