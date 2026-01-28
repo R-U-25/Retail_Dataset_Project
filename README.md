@@ -103,7 +103,7 @@ and standardises discount indicators(either 0 or 1).
 
 **Below is an example of the first 10 rows from the final complete Sales VIEW**
 
-(images/First%2010%20Records%20in%20Sales%20(VIEW).png)
+[**First 10 Rows in the Final Sales VIEW**](images/First%2010%20Records%20in%20Sales%20(VIEW).png)
 
 ## Sales Data Analysis using SQL and Power BI
 
