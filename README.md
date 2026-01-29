@@ -120,7 +120,7 @@ Below are some KPIs and important details which were extracted using SQL Queries
 
 [**Revenue by Category**](images/Total%20Income%20by%20Category.png)
 
-[**Top 10 Customers by Revenue**]()
+[**Top 10 Customers by Revenue**](images/Top%2010%20Customers%20by%20Revenue.png)
 
 ## Project Overview
 
