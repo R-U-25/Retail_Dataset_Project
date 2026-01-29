@@ -118,6 +118,7 @@ Below are some KPIs and important details which were extracted using SQL Queries
 
 [**Monthly Revenue (CTE)**](images/Monthly%20Revenue%20(CTE).png)
 
+[**Revenue by Category**]()
 
 ## Project Overview
 
