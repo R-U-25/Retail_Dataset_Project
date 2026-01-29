@@ -108,7 +108,14 @@ and standardises discount indicators(either 0 or 1).
 
 [**First 10 Rows in the Final Sales VIEW**](images/First%2010%20Records%20in%20Sales%20(VIEW).png)
 
-## Sales Data Analysis using SQL and Power BI
+## Data Analysis (SQL)
+
+SQL queries were written on the final analytical dataset to answer key business questions,
+including monthly revenue trends, category-level performance, and top selling products.
+CTEs and JOINs were used where appropriate to structure aggregations clearly and readably.
+
+[**Monthly Revenue (CTE)**]()
+
 
 ## Project Overview
 
