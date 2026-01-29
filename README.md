@@ -114,6 +114,8 @@ SQL queries were written on the final analytical dataset to answer key business 
 including monthly revenue trends, category-level performance, and top selling products.
 CTEs and JOINs were used where appropriate to structure aggregations clearly and readably.
 
+Below are some KPIs and important details which were extracted using SQL Queries.
+
 [**Monthly Revenue (CTE)**](images/Monthly%20Revenue%20(CTE).png)
 
 
