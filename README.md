@@ -122,7 +122,11 @@ Below are some KPIs and important details which were extracted using SQL Queries
 
 [**Top 10 Customers by Revenue**](images/Top%2010%20Customers%20by%20Revenue.png)
 
-## Project Overview
+## Data Visualisation (Power BI)
+
+- Insights which were derived from my SQL Analysis from the clean view was visualised through Power BI to provide an interactive
+and clear picture of the results gathered. Below are some of the visualisations which were created.
+
 
 
 ## Tools Used
