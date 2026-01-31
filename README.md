@@ -6,7 +6,7 @@ The focus here was on data modelling, validation, transformation, and business-f
 
 The project simulates a realistic analytics pipeline, from raw CSV ingestion through to analytical reporting.
 
-## Dataset source:
+### Dataset source:
 Retail Store Sales dataset by Ahmed Mohamed.
 License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 Available at: (https://www.kaggle.com/datasets/ahmedmohamed2003/retail-store-sales-dirty-for-data-cleaning)
