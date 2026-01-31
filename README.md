@@ -24,12 +24,12 @@ and RDB design.
 
 The analysis will be based on 3 tables as shown below.
 
-## Customers
+### Customers
 - 'customer_id' (Primary Key)
 
 Contains unique customer identifiers.
 
-## Products
+### Products
 - 'product_id' (Primary Key)
 - 'item'
 - 'category'
@@ -37,7 +37,7 @@ Contains unique customer identifiers.
 
 Contains product reference data and list pricing.
 
-## Transactions
+### Transactions
 - 'transaction_id' (Primary Key)
 - 'transaction_date'
 - 'customer_id' (Foreign Key → Customers)
@@ -106,7 +106,7 @@ and standardised discount indicators(either 0 or 1).
 - This view will serve as the primary dataset for analysis and reporting.
 [**Creation of the Final VIEW (Sales)**](images/Final%20VIEW%20(Sales).png)
 
-## Preview of the final VIEW
+### Preview of the final VIEW
 
 [**First 10 Rows in the Final Sales VIEW**](images/First%2010%20Records%20in%20Sales%20(VIEW).png)
 
