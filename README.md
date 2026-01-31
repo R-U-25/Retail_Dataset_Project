@@ -131,6 +131,8 @@ and clear picture of the results gathered. Below are some of the visualisations 
 
 [**Total Revenue by Category**](images/Total%20Revenue%20by%20Category.png)
 
+[**Top 10 Customers by Revenue**](images/Top%2010%20Customers%20by%20Revenue.png)
+
 ## Tools Used
 - CSV
 - SQL (SQL Server)
