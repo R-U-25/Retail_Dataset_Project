@@ -1,4 +1,4 @@
-## Retail Store Sales Analysis (CSV, SQL & Power BI)
+# Retail Store Sales Analysis (CSV, SQL & Power BI)
 ## Project Overview
 
 This project demonstrates an end-to-end data analysis workflow using a retail sales dataset.
@@ -24,12 +24,12 @@ and RDB design.
 
 The analysis will be based on 3 tables as shown below.
 
-# 1. Customers
+## Customers
 - 'customer_id' (Primary Key)
 
 Contains unique customer identifiers.
 
-# 2. Products
+## Products
 - 'product_id' (Primary Key)
 - 'item'
 - 'category'
@@ -37,7 +37,7 @@ Contains unique customer identifiers.
 
 Contains product reference data and list pricing.
 
-# 3. Transactions
+## Transactions
 - 'transaction_id' (Primary Key)
 - 'transaction_date'
 - 'customer_id' (Foreign Key → Customers)
