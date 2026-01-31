@@ -128,7 +128,8 @@ Below are some KPIs and important details which were extracted using SQL Queries
 and clear picture of the results gathered. Below are some of the visualisations which were created.
 
 [**Monthly Revenue Trend**](images/Monthly%20Revenue%20Trend.png)
-[**Total Revenue by Category**]()
+
+[**Total Revenue by Category**](images/Total%20Revenue%20by%20Category.png)
 
 ## Tools Used
 - CSV
