@@ -129,7 +129,7 @@ and standardised discount indicators(either 0 or 1).
 ## Analytical Data Model (Final VIEW)
 
 - A final analytical view (VIEW 'Sales') was created by joining cleaned transaction data with cleaned product and cleaned customer reference data.
-- LEFT JOINs were used to preserve all transaction records while enriching them with product and customer attributes.
+- JOINs were used to preserve all transaction records while enriching them with product and customer attributes.
 - This view will serve as the primary dataset for analysis and reporting.
 
 [**Creation of the Final VIEW (Sales)**](images/Final%20VIEW%20(Sales).png)
