@@ -2,9 +2,32 @@
 ## Project Overview
 
 This project demonstrates an end-to-end data analysis workflow using a retail sales dataset.
-The focus here was on data modelling, validation, transformation, and business-focused analysis using SQL Server, followed by interactive visualisation in Power BI.
+The focus is on data modelling, validation, transformation, and business-focused analysis using SQL Server,
+followed by interactive visualisation in Power BI.
 
 The project simulates a realistic analytics pipeline, from raw CSV ingestion through to analytical reporting.
+
+## Business Questions & Analysis Performed
+
+The analysis focused on answering the following business questions:
+
+- How does total revenue change over time (monthly trends)?
+- Which product categories contributed the most to overall revenue?
+- Who were the top revenue-generating customers?
+- How do discounts impact total revenue calculations?
+
+SQL queries were written against a cleaned analytical VIEW by using JOINs, CTEs, aggregations, and filtering
+to ensure that accurate and business-relevant insights were created.
+
+## Key Insights & Outcomes
+
+- Revenue showed clear monthly variation, highlighting periods of higher customer activity.
+- Certain product categories contributed a disproportionate share of total revenue.
+- A small group of customers generated a significant percentage of overall sales.
+- Careful handling of missing values and discount indicators was critical to accurate revenue calculations.
+
+These insights could support decisions around inventory planning, customer targeting,
+and sales performance monitoring.
 
 ### Dataset source:
 Retail Store Sales dataset by Ahmed Mohamed.
@@ -135,16 +158,3 @@ Below are some KPIs and important details which were extracted using SQL Queries
 [**Total Revenue by Category**](images/Total%20Revenue%20by%20Category.png)
 
 [**Top 10 Customers by Revenue**](images/Top%2010%20Customers%20by%20Revenue.png)
-
-## Conclusion
-
-This project demonstrated an end-to-end data analysis workflow using a real-world retail sales dataset.
-The data was modelled into relational tables, validated for structural and referential integrity, and
-transformed into an analytical dataset from a raw and messy dataset using SQL views.
-
-Business-focused SQL queries were used to extract insights around revenue trends, category performance,
-and customer activity, with careful handling of missing values and join logic.
-When cleaned, these insights were then visualised in Power BI to aid interactive exploration and reporting.
-
-Overall, the project showcases the importance and benefits of SQL data modelling, data validation, analytical querying,
-and visualisation as it can aid in transforming business decisions.
