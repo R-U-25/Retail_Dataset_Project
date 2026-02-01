@@ -152,7 +152,7 @@ Below are some KPIs and important details which were extracted using SQL Queries
 
 [**Revenue by Category**](images/Total%20Income%20by%20Category.png)
 
-[**Top 10 Customers by Revenue**](images/Top_10_Customer_by_Total_Revenue.png)
+[**Top 10 Customers by Revenue**](images/Top_10_Customers_by_Total_Revenue.png)
 
 ## Data Visualisation (Power BI)
 
