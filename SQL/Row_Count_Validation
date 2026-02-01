@@ -1,0 +1,8 @@
+SELECT COUNT(*) AS Customers
+FROM stg_customers;
+
+SELECT COUNT(*) AS Products
+FROM stg_products;
+
+SELECT COUNT(*) AS Transactions
+FROM stg_transactions;
