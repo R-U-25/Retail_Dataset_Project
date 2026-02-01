@@ -1,0 +1,14 @@
+WITH monthly_sales AS (
+    SELECT
+        DATEFROMPARTS(YEAR(transaction_date), MONTH(transaction_date), 1) AS month_start,
+        SUM(total_spent) AS Revenue
+    FROM Sales
+    WHERE total_spent IS NOT NULL
+      AND transaction_date IS NOT NULL
+    GROUP BY DATEFROMPARTS(YEAR(transaction_date), MONTH(transaction_date), 1)
+)
+SELECT
+    month_start,
+    Revenue
+FROM monthly_sales
+ORDER BY Revenue DESC
