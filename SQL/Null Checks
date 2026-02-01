@@ -1,0 +1,8 @@
+SELECT
+    COUNT(*),
+    SUM(CASE WHEN transaction_date IS NULL THEN 1 ELSE 0 END) AS [Transaction Date],
+    SUM(CASE WHEN quantity IS NULL THEN 1 ELSE 0 END) AS Quantity,
+    SUM(CASE WHEN price_per_unit IS NULL THEN 1 ELSE 0 END) AS [Price Per Unit],
+    SUM(CASE WHEN total_spent IS NULL THEN 1 ELSE 0 END) AS [Total Spent],
+    SUM(CASE WHEN discount_applied IS NULL THEN 1 ELSE 0 END) AS [Discount Applied]
+FROM stg_transactions;
