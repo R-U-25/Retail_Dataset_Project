@@ -153,8 +153,8 @@ Below are some KPIs and important details which were extracted using SQL Queries
 
 - Insights which were derived from my SQL Analysis from the clean view was visualised through Power BI to provide an interactive and clear picture of the results gathered. Below are some of the visualisations which were created.
 
-[**Monthly Revenue Trend**](PowerBI/Monthly%20Revenue%20Trend.png)
+[**Monthly Revenue Trend**](images/Monthly%20Revenue%20Trend.png)
 
-[**Total Revenue by Category**](PowerBI/Total%20Revenue%20by%20Category.png)
+[**Total Revenue by Category**](images/Total%20Revenue%20by%20Category.png)
 
-[**Top 10 Customers by Revenue**](PowerBI/Top%2010%20Customers%20by%20Revenue.png)
+[**Top 10 Customers by Revenue**](images/Top%2010%20Customers%20by%20Revenue.png)
