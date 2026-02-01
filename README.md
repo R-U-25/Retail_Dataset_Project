@@ -7,7 +7,7 @@ followed by interactive visualisation in Power BI.
 
 The project simulates a realistic analytics pipeline, from raw CSV ingestion through to analytical reporting.
 
-## Business Questions & Analysis Performed
+## Important Business Questions & Analysis Performed
 
 The analysis focused on answering the following business questions:
 
