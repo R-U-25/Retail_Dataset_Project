@@ -101,16 +101,16 @@ After ingestion into SQL Server staging tables, data validation checks were perf
 The following checks were performed:
 
 - Row count validation to confirm all records were successfully loaded and present.
-[**ROW COUNT VALIDATION**](images/Row_Count_Validation.png)
+[**ROW COUNT VALIDATION**](SQL/Row_Count_Validation.png)
 
 - Primary key uniqueness checks for customers, products, and transactions.
 
 - Referential integrity checks to ensure all transactions reference valid customers and products in SQL Server.
-[**REFERENTIAL INTEGRITY**](images/Referential%20Integrity%20Checks.png)
+[**REFERENTIAL INTEGRITY**](SQL/Referential%20Integrity%20Checks.png)
 
 - Null analysis on key transactional fields (quantity, price_per_unit, total_spent, discount_applied).
 - These results guided decisions on how incomplete transactions were treated and how revenue metrics were calculated during data transformation.
-[**Null Checks**](images/Null%20Checks.png)
+[**Null Checks**](SQL/Null%20Checks.png)
 
 No changes were made to the data at this stage. The validation results informed how null values, data types, and business rules were handled during the transformation phase.
 
@@ -120,18 +120,18 @@ No changes were made to the data at this stage. The validation results informed 
 - The 'transactions_clean' view converted raw text fields into appropriate date and numeric formats
 and standardised discount indicators(either 0 or 1).
 - Similar clean VIEWs were created for Customers and Products.
-[**SQL Views(Standardising Dates and Discounts**](images/SQL%20Views(Standardising%20date%20and%20discount%20fields).png)
+[**SQL Views(Standardising Dates and Discounts**](SQL/SQL%20Views(Standardising%20date%20and%20discount%20fields).png)
 
 ## Analytical Data Model (Final VIEW)
 
 - A final analytical view (VIEW 'Sales') was created by joining cleaned transaction data with cleaned product and cleaned customer reference data.
 - LEFT JOINs were used to preserve all transaction records while enriching them with product and customer attributes.
 - This view will serve as the primary dataset for analysis and reporting.
-[**Creation of the Final VIEW (Sales)**](images/Final%20VIEW%20(Sales).png)
+[**Creation of the Final VIEW (Sales)**](SQL/Final%20VIEW%20(Sales).png)
 
 ### Preview of the final VIEW
 
-[**First 10 Rows in the Final Sales VIEW**](images/First%2010%20Records%20in%20Sales%20(VIEW).png)
+[**First 10 Rows in the Final Sales VIEW**](SQL/First%2010%20Records%20in%20Sales%20(VIEW).png)
 
 ## Data Analysis (SQL)
 
@@ -143,18 +143,18 @@ including
 
 Below are some KPIs and important details which were extracted using SQL Queries.
 
-[**Monthly Revenue (CTE)**](images/Monthly%20Revenue%20(CTE).png)
+[**Monthly Revenue (CTE)**](SQL/Monthly%20Revenue%20(CTE).png)
 
-[**Revenue by Category**](images/Total%20Income%20by%20Category.png)
+[**Revenue by Category**](SQL/Total%20Income%20by%20Category.png)
 
-[**Top 10 Customers by Revenue**](images/Top%2010%20Customers%20by%20Revenue.png)
+[**Top 10 Customers by Revenue**](SQL/Top%2010%20Customers%20by%20Revenue.png)
 
 ## Data Visualisation (Power BI)
 
 - Insights which were derived from my SQL Analysis from the clean view was visualised through Power BI to provide an interactive and clear picture of the results gathered. Below are some of the visualisations which were created.
 
-[**Monthly Revenue Trend**](images/Monthly%20Revenue%20Trend.png)
+[**Monthly Revenue Trend**](PowerBI/Monthly%20Revenue%20Trend.png)
 
-[**Total Revenue by Category**](images/Total%20Revenue%20by%20Category.png)
+[**Total Revenue by Category**](PowerBI/Total%20Revenue%20by%20Category.png)
 
-[**Top 10 Customers by Revenue**](images/Top%2010%20Customers%20by%20Revenue.png)
+[**Top 10 Customers by Revenue**](PowerBI/Top%2010%20Customers%20by%20Revenue.png)
