@@ -1,0 +1,23 @@
+CREATE VIEW Sales
+AS
+SELECT
+    customers_clean.customer_id,
+
+    transactions_clean.transaction_id,
+    transactions_clean.transaction_date,
+    transactions_clean.product_id,
+
+    products_clean.category,
+    products_clean.item,
+
+    transactions_clean.quantity,
+    transactions_clean.price_per_unit,
+    transactions_clean.total_spent,
+    transactions_clean.discount_applied,
+    transactions_clean.payment_method,
+    transactions_clean.location
+FROM transactions_clean
+LEFT JOIN products_clean
+    ON transactions_clean.product_id = products_clean.product_id
+LEFT JOIN customers_clean
+    ON transactions_clean.customer_id = customers_clean.customer_id
