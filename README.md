@@ -72,7 +72,7 @@ Contains product reference data and list pricing.
 - 'payment_method'
 - 'location'
 
-COntains all customer transactions and additional details.
+Contains all customer transactions and additional details.
 
 ## Initial Data Inspection (CSV)
 
