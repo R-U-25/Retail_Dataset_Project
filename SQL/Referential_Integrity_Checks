@@ -1,0 +1,5 @@
+SELECT DISTINCT stg_transactions.customer_id
+FROM stg_transactions
+LEFT JOIN stg_customers
+    ON stg_transactions.customer_id = stg_customers.customer_id
+WHERE stg_customers.customer_id IS NULL;
