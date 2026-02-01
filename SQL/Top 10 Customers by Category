@@ -1,0 +1,9 @@
+SELECT TOP 10
+    customers_clean.customer_id,
+    SUM(Sales.total_spent) AS total_revenue
+FROM Sales
+INNER JOIN customers_clean
+    ON Sales.customer_id = customers_clean.customer_id
+WHERE Sales.total_spent IS NOT NULL
+GROUP BY customers_clean.customer_id
+ORDER BY total_revenue DESC;
