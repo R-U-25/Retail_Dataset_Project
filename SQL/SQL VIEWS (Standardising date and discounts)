@@ -1,0 +1,10 @@
+SELECT TOP 10
+    transaction_id,
+    transaction_date,
+    quantity,
+    price_per_unit,
+    total_spent,
+    discount_applied,
+    payment_method,
+    location
+FROM transactions_clean;
