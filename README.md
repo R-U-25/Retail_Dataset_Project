@@ -156,7 +156,7 @@ Below are some KPIs and important details which were extracted using SQL Queries
 
 ## Data Visualisation (Power BI)
 
-- Insights which were derived from my SQL Analysis from the clean view was visualised through Power BI to provide an interactive and clear picture of the results gathered. Below are some of the visualisations which were created.
+- Insights which were derived from my SQL Analysis from the clean view were visualised through Power BI to provide an interactive and clear picture of the results gathered. Below are some of the visualisations which were created.
 
 [**Monthly Revenue Trend**](images/Monthly%20Revenue%20Trend.png)
 
