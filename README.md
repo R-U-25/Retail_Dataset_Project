@@ -101,15 +101,18 @@ After ingestion into SQL Server staging tables, data validation checks were perf
 The following checks were performed:
 
 - Row count validation to confirm all records were successfully loaded and present.
+
 [**ROW COUNT VALIDATION**](SQL/Row_Count_Validation.png)
 
 - Primary key uniqueness checks for customers, products, and transactions.
 
 - Referential integrity checks to ensure all transactions reference valid customers and products in SQL Server.
+
 [**REFERENTIAL INTEGRITY**](SQL/Referential%20Integrity%20Checks.png)
 
 - Null analysis on key transactional fields (quantity, price_per_unit, total_spent, discount_applied).
 - These results guided decisions on how incomplete transactions were treated and how revenue metrics were calculated during data transformation.
+
 [**Null Checks**](SQL/Null%20Checks.png)
 
 No changes were made to the data at this stage. The validation results informed how null values, data types, and business rules were handled during the transformation phase.
@@ -120,6 +123,7 @@ No changes were made to the data at this stage. The validation results informed 
 - The 'transactions_clean' view converted raw text fields into appropriate date and numeric formats
 and standardised discount indicators(either 0 or 1).
 - Similar clean VIEWs were created for Customers and Products.
+
 [**SQL Views(Standardising Dates and Discounts**](SQL/SQL%20Views(Standardising%20date%20and%20discount%20fields).png)
 
 ## Analytical Data Model (Final VIEW)
@@ -127,6 +131,7 @@ and standardised discount indicators(either 0 or 1).
 - A final analytical view (VIEW 'Sales') was created by joining cleaned transaction data with cleaned product and cleaned customer reference data.
 - LEFT JOINs were used to preserve all transaction records while enriching them with product and customer attributes.
 - This view will serve as the primary dataset for analysis and reporting.
+
 [**Creation of the Final VIEW (Sales)**](SQL/Final%20VIEW%20(Sales).png)
 
 ### Preview of the final VIEW
