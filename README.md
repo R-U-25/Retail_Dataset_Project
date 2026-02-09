@@ -134,7 +134,7 @@ and standardised discount indicators(either 0 or 1).
 
 [**Creation of the Final VIEW (Sales)**](images/Final%20VIEW%20(Sales).png)
 
-### Preview of the final VIEW
+### Preview of the Final VIEW
 
 [**First 10 Rows in the Final Sales VIEW**](images/First%2010%20Records%20in%20Sales%20(VIEW).png)
 
